@@ -26,6 +26,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="script.js"></script>
+
 </head>
 <body>
 
@@ -35,7 +39,7 @@
     <div class="row">
       <div class="one-half column" style="margin-top: 10%">
         <h1>English to Maori Translator</h1>
-        <p>This is an app that translates English words to Maori words. Simply enter the English word below and click the Translate button.</p>
+        <p>This is an app that translates English words to Maori words. Simply enter the English word below and click the TRANSLATE button.</p>
       </div>
     </div>
 
@@ -44,14 +48,14 @@
     <div class="row">
       <div class="one-third column">
         <p>Put the English word here:</p>
-        <input />
+        <input id="english" />
       </div>
       <div class="one-third column" style="margin-top: 3%">
-        <button class="button-primary">Translate</button>
+        <button class="button-primary" id="button">Translate</button>
       </div>
       <div class="one-third column">
         <p>Maori translation:</p>
-        <input />
+        <input id="maori" />
       </div>
     </div>
   </div>

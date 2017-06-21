@@ -1,2 +1,2 @@
 # api-interaction
-An app that translates words from English to Maori.
+An app that spits out quotes.
